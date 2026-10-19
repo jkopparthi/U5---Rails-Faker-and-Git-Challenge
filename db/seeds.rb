@@ -9,6 +9,8 @@
 #   end
 
 
+require "csv"
+
 Product.destroy_all
 
 676.times do

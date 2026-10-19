@@ -66,3 +66,5 @@ group :test do
 end
 
 gem "faker", "~> 3.8"
+
+gem "csv", "~> 3.3"

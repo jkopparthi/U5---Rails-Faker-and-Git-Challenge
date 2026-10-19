@@ -1,24 +1,7 @@
-# README
+# simple_store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple Rails store application built for the Intro to Rails Assignnment.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It has a `Product` model (title, description, price, stock quantity) and a
+`Category` model. Products are listed at `/products` and each product has its
+own page at `/products/:id`. Seed data is loaded with `rails db:seed`.
